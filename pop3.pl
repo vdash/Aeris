@@ -15,7 +15,7 @@ my $pop = new Mail::POP3Client(
 my $fh = new IO::Handle();
 
 ## Initialize stuff for MIME::Parser;
-my $outputdir = "/root/";
+my $outputdir = "/root/mail/";
 my $parser = new MIME::Parser;
 $parser->output_dir($outputdir);
 

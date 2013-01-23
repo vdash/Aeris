@@ -6,7 +6,7 @@ use Net::POP3;
 my $server         = "mailhost.aeris.net";
 my $receiveruname  = "pm";
 my $password       = "M\$6\#r0y";
-my $attachment_dir = "/tmp";
+my $attachment_dir = "/root/mail/";
 
 my $pop = Net::POP3->new($server);
 die "Couldn't connect to the server.\n\n" unless $pop;
